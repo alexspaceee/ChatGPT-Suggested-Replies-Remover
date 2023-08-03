@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Suggested Replies Remover",
+  "version": "1.0",
+  "description": "Removes those boxes that suggest what you supposedly want to ask ChatGPT next.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
