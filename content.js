@@ -10,4 +10,4 @@ function removeProjectionBoxes() {
 }
 
 // Run the function regularly to catch new elements as they load
-setInterval(removeProjectionBoxes, 1000);
+setInterval(removeProjectionBoxes, 500);
